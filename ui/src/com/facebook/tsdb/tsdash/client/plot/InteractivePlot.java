@@ -83,6 +83,7 @@ public class InteractivePlot extends Plot {
     private static AnnotatedTimeLine.Options getChartOptions() {
         AnnotatedTimeLine.Options options = AnnotatedTimeLine.Options.create();
         options.setDateFormat("H:mm:ss");
+        options.setThickness(5);
         options.setLegendPosition(AnnotatedLegendPosition.NEW_ROW);
         return options;
     }
