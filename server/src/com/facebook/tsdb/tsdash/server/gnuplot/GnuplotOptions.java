@@ -150,7 +150,7 @@ public class GnuplotOptions {
             script += "set xrange [\"" + tsFrom + "\":\"" + tsTo + "\"]\n";
         }
         script += "set grid\n";
-        script += "set style data linespoints\n";
+        script += "set style data lines\n";
         script += "set output \"" + outputFilename + "\"\n";
         script += "set key right box\n";
         script += generatePlotCommand() + "\n";
